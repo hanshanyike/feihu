@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index2/index2",
+    "pages/home/home",
+    "pages/set/set",
+    "pages/index/index",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "非乎者也",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 500
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "首页",
+        "iconPath": "assets/icons/tabbar_list.png",
+        "selectedIconPath": "assets/icons/tabbar_list_active.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "assets/icons/tabbar_home.png",
+        "selectedIconPath": "assets/icons/tabbar_home_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

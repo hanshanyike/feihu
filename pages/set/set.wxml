@@ -1,0 +1,30 @@
+<!--pages/set/set.wxml-->
+<view >  
+  <form bindsubmit="formSubmit" class="form">
+    <view class="inputBox">
+      <text class="label">手机号</text>
+      <input  id="phone" maxlength="11" name="phone" placeholder="手机号" type="text"></input>
+    </view>
+    <view class="inputBox">
+      <text class="label">邮箱</text>
+      <input  id="mailaddress" maxlength="50" name="mailaddress"  placeholder="邮箱"></input>
+    </view>
+    <view class="inputBox">
+      <text class="label">住址</text>
+      <input  id="address" maxlength="50" name="address"  placeholder="住址"></input>
+    </view>
+    <view class="inputBox">
+      <text class="label">爱好</text>
+      <input  id="hobby" maxlength="50" name="hobby"  placeholder="爱好"></input>
+    </view>
+    <view class="inputBox">
+      <text class="label">身份证</text>
+      <input  id="idcard" maxlength="50" name="idcard"  placeholder="证件号"></input>
+    </view>
+    
+    <button class="confirm-btn" formType="submit">
+        提交                   
+    </button>
+    
+  </form>
+</view>

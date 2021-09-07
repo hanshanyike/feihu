@@ -1,0 +1,365 @@
+page {
+    background-color: hsla(0,0%,97.6%,.8);
+    padding-bottom: 6rpx;
+}
+
+.yincang {
+    display: none;
+}
+
+.soulmate-banner {
+    background-color: #fff;
+    margin-bottom: 6rpx;
+    text-align: center;
+}
+
+.banner-image {
+    height: 190rpx;
+}
+
+.conditon-like {
+    background-color: #fff;
+    font-size: 30rpx;
+    width: 100%;
+    height: 70rpx;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10rpx;
+    padding-top: 10rpx;
+    border-radius: 2px;
+    color: #4d4747;
+}
+
+form {
+    width: 100%;
+}
+
+.my-condition,form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.each-like,.my-condition {
+    line-height: 70rpx;
+    display: inline-block;
+    width: 80%;
+    border: 1rpx solid #0084ff;
+    border-radius: 2px;
+    color: #4d4747;
+    background-color: #fff;
+}
+
+.each-like {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.include-item {
+    background-color: #fff;
+    margin-top: 10rpx;
+    font-size: 34rpx;
+    letter-spacing: 4rpx;
+    padding: 30rpx;
+    border-bottom: 1rpx solid #f6f6f6;
+}
+
+.like-view {
+    color: red;
+}
+
+.bg-search {
+    position: absolute;
+    height: 100%;
+    z-index: 9999;
+    opacity: .8;
+}
+
+.bg-search,.header {
+    width: 100%;
+    background-color: #fff;
+}
+
+.header {
+    height: 90rpx;
+    display: flex;
+    flex-direction: row;
+    border-top: 2rpx solid #f9f9f9;
+}
+
+.profile-nav-item {
+    height: 90rpx;
+    width: 32%;
+    margin: 0 auto;
+}
+
+.setting-nav-title {
+    text-align: center;
+    font-size: 26rpx;
+    line-height: 90rpx;
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #240707;
+}
+
+.search-select {
+    color: #5c5a5a;
+}
+
+.picker-list {
+    float: right;
+    margin-right: 8rpx;
+    line-height: 90rpx;
+    height: 90rpx;
+    font-size: 30rpx;
+    vertical-align: middle;
+}
+
+.soulmates {
+    background-color: #f4f4f4;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.soulmate-item {
+    padding-left: 34rpx;
+    padding-right: 34rpx;
+    margin-bottom: 20rpx;
+    background-color: #fff;
+}
+
+.soulmate-author {
+    position: relative;
+    padding-top: 30rpx;
+    padding-bottom: 10rpx;
+}
+
+.search_image {
+    width: 100%;
+}
+
+.sm-avatar {
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.sm-line-block {
+    margin-top: 10rpx;
+    display: inline-block;
+    width: 100%;
+}
+
+.sm-name {
+    font-size: 28rpx;
+    vertical-align: middle;
+    color: #8590a6;
+    float: left;
+    line-height: 40rpx;
+}
+
+.jiange-view {
+    margin-top: 6rpx;
+    float: left;
+    width: 4rpx;
+    height: 30rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    background-color: #8590a6;
+}
+
+.sm-city {
+    line-height: 40rpx;
+    font-size: 28rpx;
+    color: #8590a6;
+    float: right;
+    vertical-align: middle;
+}
+
+.soulmate-content {
+    margin-top: 6rpx;
+    font-size: 34rpx;
+    color: #5c5a5a;
+    letter-spacing: 6rpx;
+    padding-bottom: 14rpx;
+    overflow: hidden;
+    line-height: 56rpx;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.sm-copy {
+    padding-top: 8rpx;
+    padding-bottom: 20rpx;
+    font-size: 34rpx;
+}
+
+.header1 {
+    position: fixed;
+    top: 0rpx;
+    z-index: 99;
+    height: 100rpx;
+    background-color: #fff;
+    width: 100%;
+}
+
+.search-form1 {
+    position: relative;
+}
+
+.search-form1 .search-input1 {
+    margin-left: 50rpx;
+    padding: 18rpx 100rpx;
+    background-color: #f7f7f7;
+    border-radius: 30rpx;
+    font-size: 34rpx;
+    color: #000;
+}
+
+.search-focus1 {
+    margin-right: 160rpx;
+}
+
+.search-blur1 {
+    margin-right: 50rpx;
+}
+
+.search-form1 .icon-search {
+    position: absolute;
+    left: 76rpx;
+    top: 30rpx;
+    font-size: 32rpx;
+    color: #000;
+}
+
+.search-form1 .search-cancel1 {
+    position: absolute;
+    top: 20rpx;
+    right: 50rpx;
+    font-size: 36rpx;
+    color: #000;
+}
+
+.soulmate-banner1 {
+    padding-top: 6px;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    margin-bottom: 6rpx;
+}
+
+.banner-image1 {
+    width: 100%;
+}
+
+.soulmates1 {
+    background-color: #f9f9f9;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.soulmate-item1 {
+    padding-left: 34rpx;
+    padding-right: 34rpx;
+}
+
+.soulmate-item1,.soulmate-item-ad1 {
+    margin-bottom: 20rpx;
+    background-color: #fff;
+}
+
+.soulmate-author1 {
+    position: relative;
+    padding-top: 30rpx;
+    padding-bottom: 10rpx;
+}
+
+.sm-avatar1 {
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.sm-line-block1 {
+    display: inline-block;
+}
+
+.sm-name1 {
+    font-size: 32rpx;
+    vertical-align: middle;
+    margin-left: 20rpx;
+    color: #8590a6;
+    line-height: 70rpx;
+}
+
+.soulmate-content1 {
+    margin-top: 10rpx;
+    font-size: 36rpx;
+    color: #5c5a5a;
+    letter-spacing: 6rpx;
+    padding-bottom: 10rpx;
+    overflow: hidden;
+    line-height: 56rpx;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+}
+
+.sm-copy1 {
+    padding-top: 8rpx;
+    padding-bottom: 20rpx;
+    font-size: 34rpx;
+}
+
+.jiange-detail {
+    width: 6rpx;
+    margin-right: 20rpx;
+    color: #0084ff;
+}
+
+.detail_my,.jiange-detail {
+    display: inline-block;
+    height: 30rpx;
+    line-height: 30rpx;
+}
+
+.detail_my {
+    font-size: 32rpx;
+    color: #696565;
+}
+
+.my_info {
+    -webkit-line-clamp: 3;
+}
+
+.my_info,.you_info {
+    font-size: 30rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    color: #8590a6;
+    display: -webkit-box;
+    line-height: 40rpx;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.you_info {
+    -webkit-line-clamp: 2;
+}
+
+.soulmate-item-ad {
+    margin-bottom: 20rpx;
+}
+
+.highlight {
+    color: red;
+}

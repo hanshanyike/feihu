@@ -1,0 +1,76 @@
+/* pages/set/set.wxss */
+page {
+  background-color: #f6f6f6;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  width: 750rpx;
+}
+.form {
+  position: absolute;
+  z-index: 4;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#ecf0ed,#fff);
+}
+.inputBox {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 25rpx 10rpx;
+  margin-top: 10%;
+  margin-left: 8%;
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid #f4f4f4;
+  transition: all .25s ease-in-out;
+}
+.label {
+  color: #888;
+  font-size: 40rpx;
+  width: 130rpx;
+  height: 25rpx;
+  line-height: 25rpx;
+  border-right: 1px solid #d8d8d8;
+  text-align: center;
+}
+.label,input {
+  padding: 0 25rpx;
+}
+
+input {
+  flex: 1;
+  font-size: 13pt;
+  min-height: 52rpx;
+  height: 52rpx;
+  line-height: 52rpx;
+}
+
+.input-placeholder {
+  color: #ccc;
+}
+
+.inputBox.active {
+  border: 2px solid #7acfa6;
+}
+
+.img_span {
+  height: 60rpx;
+  width: 200rpx;
+}
+
+.confirm-btn {
+  margin-top: 10%;
+  width: 700rpx;
+  border-radius: 5px;
+  color: #fff;
+  background: #4aaa6d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

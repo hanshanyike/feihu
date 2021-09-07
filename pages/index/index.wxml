@@ -1,0 +1,37 @@
+<view style="width: 100%;">
+    <view class="header1">
+        <view class="search-form1">
+            <input bindconfirm="searchKeyword" bindfocus="searchFocus" bindinput="searchInput" class="search-input1 {{focus?'search-focus1':'search-blur1'}}" confirmType="search" placeholder="{{shanghai}}" placeholderStyle="color:#e1e1e1;" type="text" value="{{inputValue}}"></input>
+            <text class="icon-search"></text>
+            <text bindtap="searchCancel" class="search-cancel1" wx:if="{{focus}}">取消</text>
+        </view>
+    </view>
+    <view style="margin-top:42px;">
+        <view class="soulmate-banner1" wx:if="{{bannerImage}}">
+            <swiper autoplay="false" catchtap="onSwiperTap" circular="false" duration="500" indicatorDots="false" interval="5000">
+                <swiper-item wx:for="{{bannerImage}}" wx:key="index">
+                    <image class="banner-image1" data-index="{{index}}" mode="widthFix" src="{{item.image}}" wx:if="{{item.type==0}}"></image>
+                </swiper-item>
+            </swiper>
+        </view>
+        <view class="soulmates" style="padding-top:10px;">
+            <view data-index="{{index}}" wx:for="{{soulmates}}" wx:for-item="soulmate" wx:key="id">            
+                <view catchtap="goAnswer" class="soulmate-item1" data-index="{{index}}">
+                    <view class="soulmate-author1">
+                        <image class="sm-avatar1" mode="aspectFill" src="{{soulmate.avatar_url}}"></image>
+                        <view class="sm-line-block1">
+                            <text class="sm-name1">{{soulmate.updatedAtStr}}</text>
+                        </view>
+                    </view>
+                    <view class="soulmate-content1" wx:if="{{soulmate.venueName}}">
+                        <text class="{{names.type==1?'highlight':''}}" wx:for="{{soulmate.venueName}}" wx:for-index="idx" wx:for-item="names" wx:key="idx">{{names.text}}</text>
+                    </view>
+                    <view class="soulmate-content1" wx:else>
+            {{soulmate.excerpt}}
+          </view>
+                    <view catchtap="goCopy" class="sm-copy1 zs-color" data-url="{{soulmate.url}}">{{fuzhilianjie}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
